@@ -16,3 +16,8 @@ Powershell Commands:
   - Ports:    (Mandatory) serial port(s) on which to blink LED
   - Blinks:   (Mandatory) amount of times to blink LED on each board 
   - -r:       (Optional) reloads the module before excecution (Use after making changes to the module)
+
+
+Installation:
+  Place powershell/Blink.psm1 in C:\Windows\System32\WindowsPowerShell\v1.0\Modules
+  Upload Arduino/src/Main.cpp to your arduino. Default pin for LED is pin 6.
