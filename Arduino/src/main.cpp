@@ -1,3 +1,5 @@
+// This script uses an LED attached to pin 6.
+
 #include <Arduino.h>
 
 const int PinLedRed = 6;
